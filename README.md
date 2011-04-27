@@ -151,7 +151,7 @@ So, it might be better to use 'git-pm' as the package name, which isn't so bad s
 
 SUPPORTED PACKAGE MANGERS
 =========================
-The intent of git-pm is not to duplicate the functionality of existing package managers. The intent is to provide a package manager for git
+The intent of git-pm is not to duplicate the functionality of existing package managers. The intent is to provide a plugin manager for git
 as a platform itself. To the extent that a build process is required to install a git extension, then such concerns will be delegated
 to a real package manager that knows how to deal with such concerns.
 
@@ -237,8 +237,6 @@ challenge.
 3. make sure those 4 words work on Linux, Cygwin, MAC OSX and AIX.
 4. verify that following installation, the man pages work.
 
-As an example, there is a package called gitwork. It is available somewhere on the Internet. I think, as a tarball. Or perhaps a zip. I don't think it has any dependencies, but I am really not sure. Why don't you suck it and see?
-
 MAILING LIST
 ============
 Until noted otherwise, please use the [http://dir.gmane.org/gmane.comp.version-control.git](git@vger.kernel.org) 
@@ -254,7 +252,3 @@ Ordered most recent, to less recent:
 AUTHOR
 ======
 Jon Seymour
-
-
-
-
