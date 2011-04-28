@@ -11,13 +11,13 @@ DOCUMENTATION
 Files in Documentation are intended to submitted as a contribution to git-core.
 
 <dl>
-<dt><a href="Documentation/gitplugins.txt">gitplugins(7)</a></dt>
+<dt><a href="/jonseymour/git-plugin/blob/master/Documentation/gitplugins.txt">gitplugins(7)</a></dt>
 <dd>An description of the git plugin management architecture</dd>
-<dt><a href="Documentation/gitplugins-layout.txt">gitplugins-layout(5)</a></dt>
+<dt><a href="/jonseymour/git-plugin/blob/master/Documentation/gitplugins-layout.txt">gitplugins-layout(5)</a></dt>
 <dd>A description of the plugins directory structure</dd>
-<dt><a href="Documentation/git-plugin.txt">git-plugin(1)</a></dt>
+<dt><a href="/jonseymour/git-plugin/blob/master/Documentation/git-plugin.txt">git-plugin(1)</a></dt>
 <dd>A description of the git-plugin command.</dd>
-<dt><a href="Documentation/git-install.txt">git-install(1)</a></dt>
+<dt><a href="/jonseymour/git-plugin/blob/master/Documentation/git-install.txt">git-install(1)</a></dt>
 <dd>A description of the git-install command.</dd>
 </dl>
 
