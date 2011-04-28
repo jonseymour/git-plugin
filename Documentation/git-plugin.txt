@@ -1,0 +1,37 @@
+git-plugin(1)
+===============
+
+NAME
+----
+git-plugin(1) - a command for managing plugins in a git installation
+
+
+DESCRIPTION
+-----------
+git-plugin provides various plugin management functions to git.
+
+'activate'::
+	Makes an extension available to the git runtime after first verifying that
+	the conditions required to successfully activate the plugin have been met.
+
+	This command is invoked during the installation phase after the plugin
+	has been unpacked into the git managed plugins/ directory.
+
+'deactivate'::
+	Deactivates an extension.
+
+'list'::
+	Lists all the installed plugins.
+
+'status'::
+	Reports the activation status of the specified plugin.
+
+SEE ALSO
+--------
+linkgit:git-install[1],
+linkgit:gitplugins-layout[5],
+linkgit:gitplugins[7]
+
+GIT
+---
+Part of the linkgit:git[1] suite.

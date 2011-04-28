@@ -1,0 +1,31 @@
+gitplugins(7)
+===============
+
+NAME
+----
+gitplugins - An overview of the git plugin architecture for extensions.
+
+
+DESCRIPTION
+-----------
+This document describes the plugin architecture for git extensions.
+
+A git extension is a command, hook, completion or documentation library that
+extends the functionality of git while not actually being part of the git-core itself.
+
+git extensions are implemented by git plugins. git provides a place
+which package managers and installation scripts can install plugins to. 
+
+git provides an activation mechanism for plugins that knows how to 
+perform certain validations on the plugin and detect and prevent 
+potential conflicts between plugins.
+
+SEE ALSO
+--------
+linkgit:git-install[1],
+linkgit:git-plugin[1],
+linkgit:gitplugins-layout[5]
+
+GIT
+---
+Part of the linkgit:git[1] suite.

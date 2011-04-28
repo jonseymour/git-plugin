@@ -1,0 +1,37 @@
+git-install(1)
+===============
+
+NAME
+----
+git-install - installs a git plugin by delegation to a platform package manager
+
+
+DESCRIPTION
+-----------
+The intent of this command is to allow a user to install available plugins into the current git installation.
+
+    git install [ plugin-name | plugin-archive | plugin-url | plugin-dir ]
+
+where possible, installation concerns are delegated to the platform's default package manager via 
+package-manager adapters (which are themselves plugins). However, support is also offered for 
+installing build-less plugins via simpler mechanisms such as:
+
+* unpack-and-go deployments into the plugins/ directory 
+* checkout of git repo into the plugins/ directory
+
+Such deployments are only possible for standalone plugin archives or repos that do not require dependency management or
+build support. Plugins that do require dependency management and build support should be built using the services
+of a package manager or deployed into the plugins/ directory under the control of the plugin's own build script.
+
+Following successful deployment of plugin artifacts into the plugins/ directory, the package is activated
+with git-plugin. 
+
+SEE ALSO
+--------
+linkgit:git-plugin[1],
+linkgit:gitplugins-layout[5]
+linkgit:gitplugins[7]
+
+GIT
+---
+Part of the linkgit:git[1] suite.
