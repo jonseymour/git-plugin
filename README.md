@@ -26,6 +26,8 @@ DESIGN NOTES
 Files in design are for documenting design decisions as they evolve and are not
 intended for inclusion in a submission to git-core.
 <dl>
+<dt><a href="design/ROADMAP.md">MISC</a></dt>
+<dd>A suggested roadmap.</dd>
 <dt><a href="design/MISC.md">MISC</a></dt>
 <dd>Miscellaneous design notes culled from other places</dd>
 </dl>
