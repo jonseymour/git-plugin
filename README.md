@@ -26,9 +26,9 @@ DESIGN NOTES
 Files in design are for documenting design decisions as they evolve and are not
 intended for inclusion in a submission to git-core.
 <dl>
-<dt><a href="design/ROADMAP.md">MISC</a></dt>
+<dt><a href="http://github.com/jonseymour/git-plugin/blob/master/design/ROADMAP.md">ROADMAP</a></dt>
 <dd>A suggested roadmap.</dd>
-<dt><a href="design/MISC.md">MISC</a></dt>
+<dt><a href="dttp://github.com/jonseymour/git-plugin/blob/master/design/MISC.md">MISC</a></dt>
 <dd>Miscellaneous design notes culled from other places</dd>
 </dl>
 
@@ -61,6 +61,7 @@ REVISIONS
 =========
 Ordered most recent, to less recent:
 
+* added a <a href="http://github.com/jonseymour/git-plugin/blob/master/design/ROADMAP.md">ROADMAP</a>
 * updated mailing list recommendations
 * moved some documentation into design/MISC.md
 * documented intent of each branch
