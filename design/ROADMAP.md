@@ -4,6 +4,10 @@ Implementation will be managed in stages. The first stage provide extensions to 
 with git-core that will support a minimal plugin architecture, consistent with existing
 git practices.
 
+* commit series
+ * add support for --man-path option
+ * add gitplugins.txt to describe existing git-plugins architecture
+
 * unmanaged plugins
  * no plugin management
  * no package management

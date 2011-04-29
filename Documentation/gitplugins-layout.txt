@@ -3,21 +3,18 @@ gitplugins-layout(5)
 
 NAME
 ----
-gitplugins-layout - describes organisation of directories used for plugin management.
+gitplugins-layout - describes organisation of directories used by package managers and plugin authors to install plugins
 
 
 DESCRIPTION
 -----------
-This document will describe the structure of the plugins/ directory amd the structure of the
-active/ directory. The active/ directory has a bin/ directory in the PATH and a man/ directory in the
-MANPATH. These directories contain symbolic links back to files in subdirectories of the plugins/ directory.
+This document describes where to place artifacts of a plugin in order that the git runtime may find them.
 
-The symbolic links are managed by the activate and deactivate subcommands of the git-plugin command.
+It will cover topics such as where to place scripts and shell libraries, where to place man pages and where
+to place HTML documents.
 
 SEE ALSO
 --------
-linkgit:git-install[1],
-linkgit:git-plugin[1],
 linkgit:gitplugins[5]
 
 GIT

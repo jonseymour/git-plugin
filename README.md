@@ -15,10 +15,6 @@ Files in Documentation are intended to submitted as a contribution to git-core.
 <dd>An description of the git plugin management architecture</dd>
 <dt><a href="/jonseymour/git-plugin/blob/master/Documentation/gitplugins-layout.txt">gitplugins-layout(5)</a></dt>
 <dd>A description of the plugins directory structure</dd>
-<dt><a href="/jonseymour/git-plugin/blob/master/Documentation/git-plugin.txt">git-plugin(1)</a></dt>
-<dd>A description of the git-plugin command.</dd>
-<dt><a href="/jonseymour/git-plugin/blob/master/Documentation/git-install.txt">git-install(1)</a></dt>
-<dd>A description of the git-install command.</dd>
 </dl>
 
 DESIGN NOTES
@@ -47,8 +43,6 @@ BRANCHES
 <dl>
    <dt><a href="https://github.com/jonseymour/git-plugin/master">master</a></dt>
    <dd>Never back tracks, but always behind.</dd>
-   <dt><a href="https://github.com/jonseymour/git-plugin/next">next</a></dt>
-   <dd>Integration branch. May occasionally be rebuilt, but should be reasonably stable</dd>
    <dt><a href="https://github.com/jonseymour/git-plugin/proposal">proposal</a></dt>
    <dd>Experimental branch. Rebuilt frequently. Do not base work on it.</dd>
 </dl>
@@ -61,6 +55,7 @@ REVISIONS
 =========
 Ordered most recent, to less recent:
 
+* move git-plugin, git-install command onto future branch
 * added a <a href="http://github.com/jonseymour/git-plugin/blob/master/design/ROADMAP.md">ROADMAP</a>
 * updated mailing list recommendations
 * moved some documentation into design/MISC.md
