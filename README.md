@@ -41,9 +41,9 @@ However, discussions in either place are fine by me.
 BRANCHES
 ========
 <dl>
-   <dt><a href="https://github.com/jonseymour/git-plugin/master">master</a></dt>
+   <dt><a href="https://github.com/jonseymour/git-plugin/tree/master">master</a></dt>
    <dd>Never back tracks, but always behind.</dd>
-   <dt><a href="https://github.com/jonseymour/git-plugin/proposal">proposal</a></dt>
+   <dt><a href="https://github.com/jonseymour/git-plugin/tree/proposal">proposal</a></dt>
    <dd>Experimental branch. Rebuilt frequently. Do not base work on it.</dd>
 </dl>
 
